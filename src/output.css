@@ -553,3 +553,106 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.m-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[769px\] {
+  height: 769px;
+}
+
+.w-\[1600px\] {
+  width: 1600px;
+}
+
+.w-\[1500px\] {
+  width: 1500px;
+}
+
+.w-\[1530px\] {
+  width: 1530px;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[300px\] {
+  padding-top: 300px;
+}
+
+.pt-\[250px\] {
+  padding-top: 250px;
+}
+
+.pr-\[\] {
+  padding-right: ;
+}
+
+.pr-\[250px\] {
+  padding-right: 250px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+}
+
+header {
+  background-image: url(./bg\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
